@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+	padding: 0;
+}
+
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Arial", Sans-serif;
+	color: #101010;
+}
+
+#header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #101010;
+	padding: 10px;
+	text-align: center;
+    color: white;
+}
+
+#footer {
+	bottom: 0;
+	background-color: #101010;
+	text-align: center;
+}
