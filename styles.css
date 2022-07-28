@@ -4,26 +4,49 @@
 }
 
 html {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: "Arial", Sans-serif;
+	font-family: "Verdana", Sans-serif;
 	color: #101010;
 }
 
 #header {
 	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+  	position: sticky;
+  	top: 0;
 	background-color: #101010;
-	padding: 10px;
-	text-align: center;
     color: white;
+}
+
+#title {
+	padding: 10px 16px;
+	font-weight: bold;
+}
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 #footer {
 	bottom: 0;
+	color: white;
 	background-color: #101010;
 	text-align: center;
+}
+
+li.nav {
+	float: left;
+}
+
+li.nav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 10px 16px;
+}
+
+li.nav a:hover {
+	background-color: #2c2c2c;
 }
