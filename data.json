@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "name": "linkedin",
+            "url": ""
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/rojamdev"
+        },
+        {
+            "name": "youtube",
+            "url": ""
+        },
+        {
+            "name": "soundcloud",
+            "url": ""
+        }
+    ]
+}
